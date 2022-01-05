@@ -3735,7 +3735,7 @@ way|z13-[highway=path][bicycle!=designated][foot!=designated][horse!=designated]
     dashes: 6,3;
     linecap: round;
     linejoin: round;
-    width: 0.5;
+    width: 1; /* 0.5 */
     z-index: 0.1;
 }
 
