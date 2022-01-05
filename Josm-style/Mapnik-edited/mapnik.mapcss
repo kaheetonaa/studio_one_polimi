@@ -241,7 +241,7 @@ area|z10-[landuse=construction] {
 }
 
 area|z16-[natural=wood] {
-    fill-color: #519762;
+    fill-color: #ce38d6;
 }
 
 
