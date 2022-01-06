@@ -2400,8 +2400,8 @@ area|z12-[building=apartments][railway!=station][amenity!=place_of_worship] {
 }
 
 area|z12-[building!=residential][building!=house][building!=garage][building!=garages][building!=detached][building!=terrace][building!=apartments][building][building!=no][building!=station][building!=supermarket][railway!=station][amenity!=place_of_worship] {
-    fill-color: #bca9a9;
-    fill-opacity: 0.9;
+    fill-color: white;
+    fill-opacity: 1;
     z-index: -900;
 }
 
@@ -8208,7 +8208,7 @@ area|z17-[addr:housenumber] {
 area|z7-9[boundary=national_park] {
     fill-color: #b5e3b5; /* #b5e3b5 */
     fill-opacity: 1;
-    color: salmon; /* red */
+    color: red; /* red */
     dashes: 4,2;
     opacity: 1;
     width: 0.5;
@@ -8230,20 +8230,20 @@ area|z17-[boundary=national_park] {
     width: 1;
 }
 
-area|z8-9[way_area>=200000000][boundary=national_park] {
+area|z8-9[way_area>=200000000][boundary=national_park]:closed {
     font-family: "DejaVu Sans Bold";
     font-size: 8;
     text: "name";
-    text-color: #99cc99;
+    text-color: black;
     text-halo-radius: 1;
     text-wrap-width: 14;
 }
 
-area|z10-11[boundary=national_park] {
+area|z10-[boundary=national_park]:closed {
     font-family: "DejaVu Sans Bold";
     font-size: 11;
     text: "name";
-    text-color: #99cc99;
+    text-color: black;
     text-halo-radius: 1;
     text-wrap-width: 14;
 }
