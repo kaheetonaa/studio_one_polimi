@@ -6,7 +6,7 @@ meta {
 }
 
 canvas {
-    fill-color: #f1eee8;
+    fill-color: #ffffff;
     default-lines: false;
     default-points: false;
 }
@@ -2400,7 +2400,7 @@ area|z12-[building=apartments][railway!=station][amenity!=place_of_worship] {
 }
 
 area|z12-[building!=residential][building!=house][building!=garage][building!=garages][building!=detached][building!=terrace][building!=apartments][building][building!=no][building!=station][building!=supermarket][railway!=station][amenity!=place_of_worship] {
-    fill-color: white;
+    fill-color: black;
     fill-opacity: 1;
     z-index: -900;
 }
